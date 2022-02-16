@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .heading-page {
-	padding-top: 110px;
+	padding-top: 50px;
 }
 
 .page-heading {
@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6 {
 	text-align: left;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-image: url(../images/heading-bg.jpg);
 }
 
@@ -263,7 +263,7 @@ header .navbar {
 }
 
 
-
+/* 
 /* Call To Action */
 
 .call-to-action {
@@ -297,7 +297,7 @@ header .navbar {
 .call-to-action .main-content .main-button {
 	text-align: right;
 	margin-top: 12px;
-}
+} */
 
 
 
@@ -856,30 +856,30 @@ footer p a:hover {
 }
 
 
-/* About Us */
+/* About */
 
-.about-us {
-	margin-top: 100px;
+.about {
+	margin-top: 0px;
 	text-align: center;
 }
 
-.about-us img {
+.about img {
 	width: 100%;
 	overflow: hidden;
 }
 
-.about-us p {
+.about p {
 	margin: 40px 0px;
 	border-bottom: 1px solid #eee;
 	padding-bottom: 40px;
 }
 
-.about-us ul li {
+.about ul li {
 	display: inline-block;
 	margin: 0px 5px;
 }
 
-.about-us ul li a {
+.about ul li a {
 	width: 40px;
 	height: 40px;
 	text-align: center;
@@ -891,7 +891,7 @@ footer p a:hover {
 	transition: all 0.3s;
 }
 
-.about-us ul li a:hover {
+.about ul li a:hover {
 	background-color: #b61414;
 }
 
