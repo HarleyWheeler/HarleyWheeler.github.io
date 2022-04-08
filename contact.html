@@ -87,38 +87,8 @@
 
     <section class="contact-us">
       <div class="container">
-        <div class="row">
+        <div class="row">          
           <div class="col-lg-12">
-            <div class="sidebar-item contact-information">
-              <div class="sidebar-heading">
-                <h2>contact information</h2>
-              </div>
-              <div class="content">
-                <ul>
-                  <li>
-                    <h5>757-748-9485</h5>
-                    <span>PHONE NUMBER</span>
-                  </li>
-                  <li>
-                    <h5>wheel488@umn.edu</h5>
-                    <span>EMAIL ADDRESS</span>
-                  </li>
-                  <li>
-                    <h5>194 Pillsbury Drive SE, 
-                      <br>Minneapolis, MN, 55455</h5>
-                    <span>STREET ADDRESS</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Comment out the unused/ unpreferred email method
-          <body>
-            <a href = 'mailto:wheel488@gmail?body="Yourbody"&subject="a subject".com'>SEND ME AN EMAIL!</a>
-          </body> -->
-
-          <!-- <div class="col-lg-12">
             <div class="down-contact">
               <div class="row">
                 <div class="col-lg-8">
@@ -127,7 +97,9 @@
                       <h2>Send us a message</h2>
                     </div>
                     <div class="content">
-                      <form id="contact" action="" method="post">
+                      <form id="gform" 
+                      action="https://script.google.com/macros/s/AKfycbzkEbcEFW6_3HiS5EbuS5gHkgHIW2D40bAtbptlUXAUHxqg3I-W40p-Ccnv6S4XhE3F/exec" 
+                      method="post" data-email="wheel488@umn.edu">
                         <div class="row">
                           <div class="col-md-6 col-sm-12">
                             <fieldset>
@@ -161,7 +133,31 @@
                 </div>
               </div>
             </div>
-          </div>         -->
+          </div>
+          <div class="col-lg-4">
+            <div class="sidebar-item contact-information">
+              <div class="sidebar-heading">
+                <h2>contact information</h2>
+              </div>
+              <div class="content">
+                <ul>
+                  <li>
+                    <h5>757-748-9485</h5>
+                    <span>PHONE NUMBER</span>
+                  </li>
+                  <li>
+                    <h5>wheel488@umn.edu</h5>
+                    <span>EMAIL ADDRESS</span>
+                  </li>
+                  <li>
+                    <h5>194 Pillsbury Drive SE, 
+                      <br>Minneapolis, MN, 55455</h5>
+                    <span>STREET ADDRESS</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>        
         </div>
       </div>
     </section>
@@ -203,6 +199,8 @@
           }
       }
     </script>
+  
+  <script data-cfasync="false" type="text/javascript" src="ajax_email.js"></script>
 
   </body>
 </html>
