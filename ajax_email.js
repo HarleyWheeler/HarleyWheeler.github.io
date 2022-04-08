@@ -87,14 +87,14 @@
       xhr.send(encoded);
     }
     
-    function loaded() {
-      // bind to the submit event of our form
-      var forms = document.querySelectorAll("form.gform");
-      for (var i = 0; i < forms.length; i++) {
-        forms[i].addEventListener("submit", handleFormSubmit, false);
-      }
-    };
-    document.addEventListener("DOMContentLoaded", loaded, false);
+    // function loaded() {
+    //   // bind to the submit event of our form
+    //   var forms = document.querySelectorAll("form.gform");
+    //   for (var i = 0; i < forms.length; i++) {
+    //     forms[i].addEventListener("submit", handleFormSubmit, false);
+    //   }
+    // };
+    //document.addEventListener("DOMContentLoaded", loaded, false);
   
     function disableAllButtons(form) {
       var buttons = form.querySelectorAll("button");
