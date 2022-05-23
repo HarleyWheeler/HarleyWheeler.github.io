@@ -14,12 +14,12 @@ p {
 }
 
 a {
-color: red;
+color: rgb(141, 0, 0);
 background-color: transparent!important;
 }
 
 a:hover {
-color: rgb(141, 0, 0);
+color: red;
 background-color: transparent;
 text-decoration: underline!important;
 }
