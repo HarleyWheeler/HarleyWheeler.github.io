@@ -12,9 +12,18 @@ p {
 	color: #7a7a7a;
 	line-height: 30px;
 }
+
 a {
-	text-decoration: none!important;
+color: red;
+background-color: transparent!important;
 }
+
+a:hover {
+color: rgb(141, 0, 0);
+background-color: transparent;
+text-decoration: underline!important;
+}
+
 ul {
 	padding: 0;
 	margin: 0;
